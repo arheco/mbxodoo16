@@ -15,17 +15,17 @@
             </center>
             <t t-if="website.captcha_sitekey">
             	<button type="submit" class="btn btn-primary btn-block" style="height:35px;width:100%" disabled="True" id="submitBtn" value="Submit">
-            		Submit
+            		Enviar
 				</button>
             </t>
             <t t-else="">
             	<button type="submit" class="btn btn-primary btn-block" style="height:35px;width:100%" id="submitBtn" value="Submit">
-            		Submit
+            		Enviando...
             	</button>
             </t>
 			<div class="justify-content-between mt-2 d-flex small">
-               <a t-if="signup_enabled" t-attf-href="/web/signup?{{ keep_query() }}">Don't have an account?</a>
-               <a t-if="reset_password_enabled" t-attf-href="/web/reset_password?{{ keep_query() }}">Reset Password</a>
+               <a t-if="signup_enabled" t-attf-href="/web/signup?{{ keep_query() }}">Registrarse</a>
+               <a t-if="reset_password_enabled" t-attf-href="/web/reset_password?{{ keep_query() }}">Olvidé la contraseña</a>
            </div>
         </xpath>
         <div t-attf-class="clearfix oe_login_buttons text-center gap-1 d-grid mb-1 {{'pt-2' if form_small else 'pt-3'}}" position="replace">

@@ -14,17 +14,17 @@
 	                <div class="g-recaptcha" t-att-data-sitekey="website.recaptcha_sitekey" data-callback="recaptchaCallback" />
 	                <br/>
 	            </center>
-	            <button type="submit" class="btn btn-primary btn-block" disabled="True" id="submitBtn" > Sign up</button><br/>
+	            <button type="submit" class="btn btn-primary btn-block" disabled="True" id="submitBtn" > Registrarse</button><br/>
 		            <center>
-		                <a t-attf-href="/web/login?{{ keep_query() }}" class="btn btn-link btn-sm" role="button">Already have an account?</a>
+		                <a t-attf-href="/web/login?{{ keep_query() }}" class="btn btn-link btn-sm" role="button">¿Tienes cuenta? Inicia sesión</a>
 		            </center>
 		        <div class="o_login_auth"/>
 	        </t>
 	        
         	<t t-else="">
-				<button type="submit" class="btn btn-primary btn-block" id="submitBtn" > Sign up</button><br/>
+				<button type="submit" class="btn btn-primary btn-block" id="submitBtn" > Registrarse</button><br/>
 	            <center>
-	                <a t-attf-href="/web/login?{{ keep_query() }}" class="btn btn-link btn-sm" role="button">Already have an account?</a>
+	                <a t-attf-href="/web/login?{{ keep_query() }}" class="btn btn-link btn-sm" role="button">¿Tienes cuenta? Inicia sesión</a>
 	            </center>
 	            <div class="o_login_auth"/>
 			</t>
