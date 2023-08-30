@@ -13,10 +13,10 @@
                         <table style="width:100%;">
                             <tbody style="line-height:2">
                                 <tr>
-                                    <td><strong>Ref no</strong></td><td>&#160;:&#160;</td>
-                                    <td><strong>&#160;<span style="font-size:16px; font-weight:2px;" t-esc="sev_id"/></strong></td>
-                                    <td><strong>Nombre del cliente&#160;</strong></td><td>&#160;:&#160;</td>
-                                    <td>&#160;<span t-esc="customer_name"/></td>
+                                    <td><strong>Ref no</strong></td>:<td></td>
+                                    <td><strong><span style="font-size:16px; font-weight:2px;" t-esc="sev_id"/></strong></td>
+                                    <td><strong>Nombre del cliente:;</strong></td><td></td>
+                                    <td><span t-esc="customer_name"/></td>
                                 </tr>
                             </tbody>
                         </table>
@@ -25,15 +25,15 @@
                         <table style="width:100%;">
                             <tbody style="line-height:2">
                                 <tr>
-                                    <td style="margin-right:10%;"><strong>Fecha de entrada&#160;</strong></td><td>&#160;:&#160;</td>
-                                    <td>&#160;<span t-esc="date_request"/></td>
-                                    <td style="margin-right:10%;"><strong>Fecha estimada de entrega&#160;</strong></td><td>&#160;:&#160;</td>
-                                    <td>&#160;<span t-esc="date_return"/></td>
+                                    <td style="margin-right:10%;"><strong>Fecha de entrada:</strong></td><td></td>
+                                    <td><span t-esc="date_request"/></td>
+                                    <td style="margin-right:10%;"><strong>Fecha estimada de entrega:</strong></td><td></td>
+                                    <td><span t-esc="date_return"/></td>
                                 </tr>
                             </tbody>
                         </table>
                     </div>
-                    <div class="col-xs-6" style="margin-top:20%;margin-left:5%; text-align:center;"><h2>Device details</h2></div>
+                    <div class="col-xs-6" style="margin-top:20%;margin-left:5%; text-align:center;"><h2>Detalles del dispositivo</h2></div>
                     <table style="margin-top:5%;margin-left:5%;width:95%;border:1px solid black;line-height:2;text-align:center;">
                         <thead style="background-color:#c9cacc;font-size:15px;">
                             <tr>
@@ -70,7 +70,7 @@
                 </div>
                 <div style="margin-top:200px;">
                     <span>Mantenga esta nota para cualquier referencia futura!!</span><br/>
-                   <span>Fecha de impresion: :</span> <t t-esc="date_today"/>
+                   <span>Fecha de impresion:</span> <t t-esc="date_today"/>
                 </div>
             </t>
         </t>
